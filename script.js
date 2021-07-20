@@ -26,7 +26,7 @@ var Accuse = function () {
     alert(`I accuse ${Friends[id % 5]}, with ${Weapons[id % 20]}, in the ${Locations[id % 10]}!`);
 };
 
-var Friends = ["Naharie", "WingSpan", "RoseWyrm", "Mbvarz", "WingedSeal"];
+var Friends = ["Naharie", "WingSpan", "RoseWyrm", "Mbletz", "WingedSeal"];
 var Weapons = ["Java", "Javascript", "Html", "Css", "C#", "C", "C++", "IBM Cobol", "Typescript", "Ruby", "Python", "PHP", "R", "Assembly", "Perl", "QALB", "TIE", "Unicon", "Xtend", "Zeno"];
 var Locations = ["Kitchen", "Hallway", "Dining room", "Study", "Porch", "Bedroom", "Library", "Yard", "Laundry Room", "Washing room"];
 
