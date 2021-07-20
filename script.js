@@ -1,5 +1,5 @@
-const AddElement = function (type, parent, text, properties, eventListeners) {
-    let NewElement = document.createElement(type);
+var AddElement = function (type, parent, text, properties, eventListeners) {
+    var NewElement = document.createElement(type);
     if (text !== undefined) NewElement.textContent = text;
 
     for (key in properties)
@@ -17,16 +17,16 @@ const AddElement = function (type, parent, text, properties, eventListeners) {
 };
 
 //This would return what the lab is wanting me to do
-const ScopingFunction = function (Friend, Weapon, Location) {
+var ScopingFunction = function (Friend, Weapon, Location) {
     return function () {alert(`I accuse ${Friend}, with ${Weapon}, in the ${Location}!`);};
 };
 //Alternative solution to scoping
-const Accuse = function () {
-    let id = parseInt (this.id)
+var Accuse = function () {
+    var id = parseInt (this.id)
     alert(`I accuse ${Friends[id % 5]}, with ${Weapons[id % 20]}, in the ${Locations[id % 10]}!`);
 };
 
-var Friends = ["Naharie", "WingSpan", "RoseWyrm", "Mbletz", "WingedSeal"];
+var Friends = ["Naharie", "WingSpan", "RoseWyrm", "Mbvarz", "WingedSeal"];
 var Weapons = ["Java", "Javascript", "Html", "Css", "C#", "C", "C++", "IBM Cobol", "Typescript", "Ruby", "Python", "PHP", "R", "Assembly", "Perl", "QALB", "TIE", "Unicon", "Xtend", "Zeno"];
 var Locations = ["Kitchen", "Hallway", "Dining room", "Study", "Porch", "Bedroom", "Library", "Yard", "Laundry Room", "Washing room"];
 
