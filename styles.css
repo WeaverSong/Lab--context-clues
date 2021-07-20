@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background-color: gray;
+}
+
+h3 {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5%;
+    box-shadow: 5px 5px rgb(88, 88, 88);
+}
+
+div {
+    display: block;
+}
